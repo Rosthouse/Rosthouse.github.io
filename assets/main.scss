@@ -51,11 +51,16 @@ $on-laptop:        800px;
 
 .site-nav{
     display: block;
-    background: red;
     .trigger{
         color: blue;
-        font-size: 50%;
+        @include center_element(2%);
+        
     }
+    float: none !important;
+}
+
+.site-title{
+    float: none !important;
 }
 
 // Minima also includes a mixin for defining media queries.
