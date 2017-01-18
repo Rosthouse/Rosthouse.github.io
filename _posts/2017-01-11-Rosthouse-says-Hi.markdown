@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Rosthouse says "Hi!""
+title:  "Rosthouse says Hi!"
 date:   2017-01-11 16:07:34 +0100
 categories: devlog update welcome
 ---
