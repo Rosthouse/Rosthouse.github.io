@@ -52,9 +52,19 @@ $on-laptop:        800px;
 .site-nav{
     display: block;
     .trigger{
-        color: blue;
-        @include center_element(2%);
-        
+        a{
+            color: blue;
+            padding: 10px;
+            //@include center_element(2%);
+            //@include space_element(5px);
+            background: #73AD21;
+            margin-right: 0 !important;
+            margin-left: 0 !important;
+            box-shadow: 5px 5px 5px grey;
+            &:hover{
+                background: red;
+            }
+        }
     }
     float: none !important;
 }
