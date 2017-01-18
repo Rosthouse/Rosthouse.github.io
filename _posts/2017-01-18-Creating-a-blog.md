@@ -34,3 +34,9 @@ Cool, now I am able to change the structure of my blog. So far so good.
 
 But you can't really put a blog out there if you don't have any colors in it. The basic white looks clean, but staring at it too long will make your eyes bleed (Dark themes, each day, every day). So that means getting into CSS, or [SASS](http://sass-lang.com/), as that is used by jekyll. Another new thing to learn.
 And again, this seems to work smoothly. The syntax is a bit weird to begin, if you're used to standard CSS. But I see the strenghts given by SASS, which is awesome.
+
+Quickly I wanted to do something more. Have the navbar beneath my blog title. Right now the title is on the side, like this:
+![Menu right now]({{ site.url }}/assets/img/18-01-2017_right_hand_menu.png)
+
+My first hunch was to do this in CSS.
+
