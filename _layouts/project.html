@@ -1,14 +1,9 @@
 ---
-layout: default
+layout: page
+title: Projects
 ---
-<article class="project">
-
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
-
-  <div class="post-content">
-    {{ content }}
-  </div>
-
-</article>
+{% for project in site.projects %}
+	<div class="project">
+		<h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+	</div>
+{% endfor %}
