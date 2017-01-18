@@ -3,6 +3,8 @@
 ---
 @charset "utf-8";
 
+
+
 // Our variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
@@ -26,6 +28,9 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+// Import partials from the `minima` theme.
+@import "minima";
+
 
 @mixin center_element($center){
     margin-left: $center;
@@ -44,6 +49,14 @@ $on-laptop:        800px;
     box-shadow: 10px 10px 5px grey;
 }
 
+.site-nav{
+    display: block;
+    background: red;
+    .trigger{
+        color: blue;
+        font-size: 50%;
+    }
+}
 
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
@@ -53,6 +66,3 @@ $on-laptop:        800px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
-
-// Import partials from the `minima` theme.
-@import "minima";
