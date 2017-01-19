@@ -42,31 +42,51 @@ $on-laptop:        800px;
 }
 
 .page-content{
+    padding: 0;
     @include center_element(auto);
-    @include space_element(5px);
+    @include space_element(0px);
     background-color: #ffffff;
     width: $content-width;
     box-shadow: 10px 10px 5px grey;
+    
+}
+.wrapper{
+    max-width: $content-width;
+    padding: 0;
 }
 
 .site-nav{
+    float: none;
     display: block;
+    background: $grey-color-light;
     .trigger{
         a{
+            border: 2px solid black;
             padding: 10px;
-            @include center_element(2%);
+            color: $grey-color-dark;
+           /* @include center_element(2%);
             @include space_element(5px);
             background: #73AD21;
             margin-right: 0 !important;
             margin-left: 0 !important;
-            box-shadow: 5px 5px 5px grey;
+            box-shadow: 5px 5px 5px grey;*/
+            &:hover{
+                background: $grey-color-dark;
+                color: $grey-color-light;
+                text-decoration: none;
+            }
         }
     }
-    float: none !important;
+    .page-link {
+        // Gaps between nav items, but not on the last one
+        &:not(:last-child) {
+            margin: 0;
+        }
+    }
 }
 
 .site-title{
-    float: none !important;
+    float: none;
 }
 
 // Minima also includes a mixin for defining media queries.
