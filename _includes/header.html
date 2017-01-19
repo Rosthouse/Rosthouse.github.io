@@ -16,6 +16,7 @@
       </span>
 
       <div class="trigger">
+        <a class="page-link" h href="{{ "/" | relative_url}}">Home</a>
         {% assign sorted_pages = site.pages | sort:"order" %}
         {% for my_page in sorted_pages %}
             {% if my_page.title %}
