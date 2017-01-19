@@ -56,18 +56,16 @@ $nav-button-width:  75px;
     max-width: $content-width;
     padding: 0;
     @include space_element(5px);
-   div, article{
-       margin: 5px;
-   }
+    div, article{
+        margin: 5px;
+    }
 }
 
 .site-nav{
-    //clear: both;
     float: none;
     display: block;
     background: $grey-color-light;
     box-shadow: 4px 4px 5px $grey-color-dark;
-    
     .trigger{
         display: flex;
         a{
@@ -103,12 +101,14 @@ $nav-button-width:  75px;
     float: none;
     a {
         color: $text-color;
+        text-align: center;
+        display: block;
+        max-height: 81px;
+        line-height: 81px;
         &:hover{
             color: $text-color;
             text-decoration: none;
         }
-        display: table-cell;
-        vertical-align: middle;
 
     }
     .site-left  { float: left; }
