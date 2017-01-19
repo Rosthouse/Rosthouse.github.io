@@ -43,6 +43,13 @@ $nav-button-width:  75px;
     margin-top: $amount;
     margin-bottom: $amount;
 }
+@mixin clear_float(){
+    &:after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+}
 
 .page-content{
     padding: 0;
@@ -113,11 +120,17 @@ $nav-button-width:  75px;
     }
     .site-left  { float: left; }
     .site-right { float: right; }
-    &:after{
-        content: '';
-        display: block;
-        clear: both;
+    @include clear_float();
+}
+
+.project{
+    .project-image{
+        float: left;
     }
+    .project-info{
+        float:left;
+    }
+    @include clear_float();
 }
 
 // Minima also includes a mixin for defining media queries.
