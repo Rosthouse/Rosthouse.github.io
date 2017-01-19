@@ -62,14 +62,17 @@ $nav-button-width:  75px;
     display: block;
     background: $grey-color-light;
     box-shadow: 4px 4px 5px $grey-color-dark;
+    
     .trigger{
+        display: flex;
         a{
-            display: inline-block;
-            border: 2px solid black;
+            vertical-align: center;
+            border-right: 2px solid black;
             color: $grey-color-dark;
             width: $nav-button-width;
             text-align: center;
-            height: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
             &:hover{
                 background: $grey-color-dark;
                 color: $grey-color-light;
