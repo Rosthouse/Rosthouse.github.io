@@ -47,18 +47,19 @@ $on-laptop:        800px;
     @include space_element(0px);
     background-color: #ffffff;
     width: $content-width;
-    box-shadow: 10px 10px 5px grey;
-    
+    box-shadow: 10px 10px 5px $grey-color-dark;
 }
 .wrapper{
     max-width: $content-width;
     padding: 0;
+    @include space_element(5px);
 }
 
 .site-nav{
     float: none;
     display: block;
     background: $grey-color-light;
+    box-shadow: 4px 4px 5px $grey-color-dark;
     .trigger{
         a{
             border: 2px solid black;
