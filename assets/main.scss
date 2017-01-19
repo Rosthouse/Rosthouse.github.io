@@ -55,6 +55,9 @@ $nav-button-width:  75px;
     max-width: $content-width;
     padding: 0;
     @include space_element(5px);
+   div, article{
+       margin: 5px;
+   }
 }
 
 .site-nav{
@@ -85,6 +88,12 @@ $nav-button-width:  75px;
         &:not(:last-child) {
             margin: 0;
         }
+    }
+}
+
+.site-footer{
+    .wrapper{
+        margin: 5px;
     }
 }
 
