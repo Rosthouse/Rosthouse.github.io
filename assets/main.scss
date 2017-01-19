@@ -102,7 +102,10 @@ $nav-button-width:  75px;
     float: none;
     a{
         color: $text-color;
-
+        &:hover{
+            color: $text-color;
+            text-decoration: none;
+        }
     }
 }
 
