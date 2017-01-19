@@ -28,6 +28,8 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$nav-button-width:  75px;
+
 // Import partials from the `minima` theme.
 @import "minima";
 
@@ -62,15 +64,12 @@ $on-laptop:        800px;
     box-shadow: 4px 4px 5px $grey-color-dark;
     .trigger{
         a{
+            display: inline-block;
             border: 2px solid black;
-            padding: 10px;
             color: $grey-color-dark;
-           /* @include center_element(2%);
-            @include space_element(5px);
-            background: #73AD21;
-            margin-right: 0 !important;
-            margin-left: 0 !important;
-            box-shadow: 5px 5px 5px grey;*/
+            width: $nav-button-width;
+            text-align: center;
+            height: 100%;
             &:hover{
                 background: $grey-color-dark;
                 color: $grey-color-light;
