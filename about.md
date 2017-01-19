@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+order: 1
 ---
 HOW DID YOU FIND THIS? THIS ISN'T FOR YOU TO SEE. UNSEE IT NOW!
 
