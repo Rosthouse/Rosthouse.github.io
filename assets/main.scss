@@ -126,11 +126,17 @@ $nav-button-width:  75px;
 .project{
     .project-image{
         float: left;
+        height: 128px;
     }
     .project-info{
         float:left;
     }
+    @include space_element(100px);
     @include clear_float();
+    padding-bottom: 5px;
+    background: $grey-color-light;
+    padding: 5px;
+    box-shadow: 10px 10px 5px $grey-color;
 }
 
 // Minima also includes a mixin for defining media queries.
