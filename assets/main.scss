@@ -157,6 +157,13 @@ $nav-border-style: 2px solid black;
                 @include nav_button_hover();
             }
         }
+        .page-link{
+            margin: 0;
+        }
+    }
+    .site-title{
+        .site-left{ display: none;}
+        .site-right{ float: left;}
     }
 
     .page-content{
