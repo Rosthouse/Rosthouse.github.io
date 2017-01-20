@@ -128,7 +128,7 @@ $nav-border-style: 2px solid black;
     @include clear_float();
 }
 
-.project{
+.project-summary{
     .project-image{
         float: left;
         height: 128px;
@@ -173,7 +173,7 @@ $nav-border-style: 2px solid black;
          padding-right: $spacing-unit / 2;
          padding-left: $spacing-unit / 2;
      }
-     .project{
+     .project-summary{
          .project-image{
              width: 15%;
              height: auto;
