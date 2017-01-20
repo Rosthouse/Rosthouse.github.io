@@ -30,6 +30,7 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 $nav-button-width:  75px;
+$nav-border-style: 2px solid black;
 
 // Import partials from the `minima` theme.
 @import "minima";
@@ -49,6 +50,14 @@ $nav-button-width:  75px;
         display: block;
         clear: both;
     }
+}
+
+@mixin nav_button_hover(){
+    &:hover{
+                background: $grey-color-dark;
+                color: $grey-color-light;
+                text-decoration: none;
+            }
 }
 
 .page-content{
@@ -77,17 +86,13 @@ $nav-button-width:  75px;
         display: flex;
         a{
             vertical-align: center;
-            border-right: 2px solid black;
+            border-right: $nav-border-style;
             color: $grey-color-dark;
             width: $nav-button-width;
             text-align: center;
             padding-top: 10px;
             padding-bottom: 10px;
-            &:hover{
-                background: $grey-color-dark;
-                color: $grey-color-light;
-                text-decoration: none;
-            }
+            @include nav_button_hover();
         }
     }
     .page-link {
@@ -142,6 +147,17 @@ $nav-button-width:  75px;
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
 @include media-query($on-palm) {
+
+    .site-nav{
+        .trigger{
+            display: none;
+            a{
+                border-bottom: $nav-border-style;
+                border-right: none;
+                @include nav_button_hover();
+            }
+        }
+    }
 
     .page-content{
         width: 100%;
