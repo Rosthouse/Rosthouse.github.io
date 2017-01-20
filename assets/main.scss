@@ -141,9 +141,20 @@ $nav-button-width:  75px;
 
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
-// @include media-query($on-palm) {
-//     ."wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
+@include media-query($on-palm) {
+
+    .page-content{
+        width: 100%;
+    }
+    .wrapper {
+         padding-right: $spacing-unit / 2;
+         padding-left: $spacing-unit / 2;
+     }
+     .project{
+         .project-image{
+             width: 15%;
+             height: auto;
+             //display: none;
+         }
+     }
+}
