@@ -5,6 +5,7 @@ date:   2017-01-18 15:52:00 +0100
 categories: jekyll update
 ---
 As I am having a little more off time serving my country (lol), I thought I could use this time best if I rig up my blog. The reasoning was that here I wouldn't have a good enought machine to do serious dev work, neither do I have the peace and quiet that I need to work on crazy stuff. So I got my laptop out and started installing jekyll.
+
 ## Why jekyll?
 I am a developer. I live in code files, I am the command line. I am not the creative type that has photoshop, dreamweaver and whatnot figured out. I thought going with a framework where everything you can do is spelled out in code rather than in submenues of submenuse would be more suited for me.
 Truth be told, I also liked that you can simply create a git repo and push that to github.

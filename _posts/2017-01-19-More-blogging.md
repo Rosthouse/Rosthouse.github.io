@@ -7,6 +7,7 @@ tags: syntax highlighting jekyll sorting order favicon logo css
 ---
 After working a little more with [jekyll](https://jekyllrb.com/), I'm really starting to like it. It's quite easy, once you get the hang of it (safe for CSS/SASS, but that's a nightmare everywhere).
 So I'm posting a few handy snippets I found.
+
 ## WORK FROM THE SOURCE!
 My jekyll theme is based upon the [minima theme](https://github.com/jekyll/minima). Basically anything I did was by looking at the source and modifying what I had to.
 In this post, whenever I talk about add this or add that file, I just downloaded it from the git repo and added it.
