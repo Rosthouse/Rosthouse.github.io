@@ -11,10 +11,12 @@ I am a developer. I live in code files, I am the command line. I am not the crea
 Truth be told, I also liked that you can simply create a git repo and push that to github.
 
 Maybe I will one day create a proper website, but for now this must suffice. But...
+
 ## NOTHING BLOODY WORKS
 Ok, all right. The first few steps were rather easy. Just follow the directions on the [Quickstart Guide](https://jekyllrb.com/docs/quickstart/) and you have your basic blog running. And that did work, no complaints there.
 But as soon as I started working with themes, everything came crashing down. I had obscure error messages, had to install another ruby framework (devkit?) and in the end I couldn't even get the github themes running on my local machine.
 Frustrated I deleted everything and started anew.
+
 ## SOMETHING BLODDY WORKS
 After I started again, I took another approach. Do I need a fancy theme, with animations, cool shadows and more plugins than I'll ever know?
 
@@ -30,6 +32,7 @@ page.html
 post.html
 ```
 These are used to render my pages.
+
 ## MORE BLOODY THINGS WORK
 Cool, now I am able to change the structure of my blog. So far so good.
 

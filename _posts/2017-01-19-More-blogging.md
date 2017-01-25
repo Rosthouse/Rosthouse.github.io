@@ -11,8 +11,10 @@ So I'm posting a few handy snippets I found.
 ## WORK FROM THE SOURCE!
 My jekyll theme is based upon the [minima theme](https://github.com/jekyll/minima). Basically anything I did was by looking at the source and modifying what I had to.
 In this post, whenever I talk about add this or add that file, I just downloaded it from the git repo and added it.
+
 ## SYNTAX HIGHLIGHTING!
 First, to create this post, I actually had to figure out how to display jekyll and html code in this blog. What you need is to use the ```{ % raw % }``` tag to encapsule your liquid code (I deliberatly put a space in between the curly braces and the percentage sign here). Otherwise, the page generator will read your code even if it is in an highlight tag. And we don't want that.
+
 ## ORDER YOUR PAGES!
 One of the first things I wanted to do, after creating my projects collection, I wanted to be able to sort my pages. I was really happy to see that this can be quite easily done!
 The code for this I got from [stackoverflow](http://stackoverflow.com/a/33983971)
@@ -39,6 +41,7 @@ order: 3
 ```
 Next, I just loop over the list ```sorted_pages```, giving me exactly the order I defined previously.
 *Sidenote* I also added a Home Button to my nav page. It just seemed to be missing for me.
+
 ## ADD A FAVICON!
 First, you obviously need a favicon. Create one and put it into the root directory of your page.
 For me, it didn't show up at first. So again, I had to modify the source. In the folder ```/_includes```, add the file ```head.html```. There, we add a ```link``` tag to the head.
@@ -50,6 +53,7 @@ For me, it didn't show up at first. So again, I had to modify the source. In the
 </head>
 ```
 This should work without any more modifications. Save and test.
+
 ## ADD A LOGO!
 Ok, this here is more a reminder to myself, but I promise I can show you a pretty neat CSS trick in the end.
 I made myself a little logo (hurray) and wanted to use it for more than just a favicon. My idea was to include it on the top right side of the page, same hight as the blog title. Seemed easy enough, I thought.
@@ -98,8 +102,10 @@ After looking around, I foudn this:
 ```
 Whith the after element, I create an invisible HTML element, that clears up the floating. It's a bit of a hac, but works pretty good:
 ![Logo Test 3]({{ site.url }}/assets/img/19-01-2017_header_logo_3.png)
+
 ## MORE TRICKS TO FOLLOW!
 I will be posting more such tricks in the future. It's a nice challenge to figure out such things and provides me a break.
+
 ## NEXT WEEK!
 Next week I will (finally) really start working on games. I intend to work on Bouncer again and change the aestethics of the game to have a "Fjord" theme instead of a medival one.
 Hopefully I can post a better project page after that.
