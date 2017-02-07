@@ -26,6 +26,8 @@ github_username:  Rosthouse
 collections:
   projects:
     output: true
+  quicktips:
+    output: true
 
 # Build settings
 markdown: kramdown

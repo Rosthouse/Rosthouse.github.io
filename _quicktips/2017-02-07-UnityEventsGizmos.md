@@ -9,8 +9,19 @@ description: Show your UnityEvent dependencies in the editor.
 ## CODE!
 In a [MonoBehaviour]() that exposes a UnityEvent, add this function:
 {% highlight csharp %}
-function DrawGizmosSelected()
+UnityEvent activate;
+
+private void OnDrawGizmosSelected()
 {
-    //Draw code
+    for (int i = 0; i < activate.GetPersistentEventCount(); i++)
+    {
+        Object listener = activate.GetPersistentTarget(i);
+        MonoBehaviour target = listener as MonoBehaviour;
+        if (target != null)
+        {
+            Gizmos.color = Color.blue;
+            Gizmos.DrawLine(this.transform.position, target.transform.position);
+        }
+    }
 }
 {% endhighlight %}
