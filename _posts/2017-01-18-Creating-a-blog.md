@@ -3,6 +3,7 @@ layout: post
 title:  "Creating a blog!"
 date:   2017-01-18 15:52:00 +0100
 categories: jekyll update
+author: Rosthouse
 ---
 As I am having a little more off time serving my country (lol), I thought I could use this time best if I rig up my blog. The reasoning was that here I wouldn't have a good enought machine to do serious dev work, neither do I have the peace and quiet that I need to work on crazy stuff. So I got my laptop out and started installing jekyll.
 

@@ -19,6 +19,7 @@ On this page you can find usefull stuff I found during my research. This can be 
         - [Unity Editor Theme Support](https://forum.unity3d.com/threads/zios-editor-theme-support.411818/): Allows you to customize the look of the unity editor.
     - [Paint.net](http://www.getpaint.net/index.html): Free windows image editor.
     - [Audacity](http://www.audacityteam.org/): Open source audio editor.
+    - [ScreenToGif](http://www.screentogif.com/): Open source GIF recorder.
 
 + Tutorials
     - [Alan Zucconi](http://www.alanzucconi.com/tutorials/): Has a lot of interesting Unity tutorials.

@@ -4,6 +4,7 @@ title:  "More blogging!"
 date:   2017-01-19 16:52:00 +0100
 categories: jekyll update blogging
 tags: syntax highlighting jekyll sorting order favicon logo css
+author: Rosthouse
 ---
 After working a little more with [jekyll](https://jekyllrb.com/), I'm really starting to like it. It's quite easy, once you get the hang of it (safe for CSS/SASS, but that's a nightmare everywhere).
 So I'm posting a few handy snippets I found.
