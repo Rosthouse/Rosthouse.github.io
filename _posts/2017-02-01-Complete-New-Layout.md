@@ -4,6 +4,7 @@ title:  "CAPTAIN MY CAPTAIN!"
 date:   2017-02-01 16:12:00 +0100
 categories: unity bouncer gamedev
 tags: unity gamedev bouncer 3d 2.5d particle
+author: Rosthouse
 ---
 Over the last week, I tried to figure out how I'm going to change the layout. There's a lot of stuff that has to change, and even though I thought I could do it quickly, I'm not quite finished.
 First and foremost, Robby is gone

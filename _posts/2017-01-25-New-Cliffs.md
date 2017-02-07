@@ -4,6 +4,7 @@ title:  "NEW CLIFFS!"
 date:   2017-01-25 16:12:00 +0100
 categories: unity bouncer gamedev
 tags: unity gamedev bouncer 3d 2.5d
+author: Rosthouse
 ---
 As I said last week, today I finally got to have a full day of gamedev for me. And I actually managed to work quite a bit.
 Mainly I worked on two things: Spawning and Theming
