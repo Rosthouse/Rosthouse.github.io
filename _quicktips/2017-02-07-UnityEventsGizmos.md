@@ -25,3 +25,6 @@ private void OnDrawGizmosSelected()
     }
 }
 {% endhighlight %}
+What it does should be pretty self-explanatory. So I will explain it anyway.
+It reads the amount of listeners of the event, then draws a line for each of them, by converting a target to a MonoBehaviour and then reading its tranform.
+You could add some bells and whistles, by including more sophisticated gizmos (like drawing a circle at the start and a triangle at the end, creating an arrow), but it works for me that way.
