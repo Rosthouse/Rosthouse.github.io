@@ -25,4 +25,4 @@ But at the back of my head, another idea is already forming. I have to keep it a
 That all said, I did manage to make some progress. The last remnants of the old medival theme are now purged from the main game (some are still left in the menu). 
 Also, I manage to fix the spawning issue. The more you score, the more lemmings are on screen.
 
-![Current Progress]({{site.url}}/assets/img/posts/focus/current_progress.mp4)
+{% video {{site.url}}/assets/img/posts/focus/current_progress.mp4 720 480 {{site.url}}/assets/img/posts/focus/current_progress_poster.png %}
