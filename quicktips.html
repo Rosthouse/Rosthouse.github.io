@@ -1,0 +1,14 @@
+---
+layout: page
+title: QuickTips
+permalink: /quicktips/
+order: 3
+---
+{% for tip in site.quicktips %}
+	<div class="project-summary">
+		<div class="project-info">
+			<h2><a href="{{ tip.url }}">{{ tip.title }}</a></h2>
+			<p>{{ tip.description }}</p>
+		</div>
+	</div>
+{% endfor %}
