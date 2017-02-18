@@ -26,7 +26,9 @@ Pretty neat!
 ## NEW MAIN MENU!
 The main menu has changed completly as well. It now better mirrors the main game, which I think is a good thing:
 
-{% video {{site.url}}/assets/vid/posts/soldering_on/new_main_menu.mp4 480 800 %}
+<video width="480" height="800" controls>
+     <source src="{{site.url}}/assets/vid/posts/soldering_on/new_main_menu.mp4" type="video/mp4">
+</video>
 
 The buoys (which sounds funny in english) are actually 3D models, similar to the cliffs. What's neat though, is that although they all use the exact same animation, I managed to randomize them a little. First, the speed of each buoy is randomized in a certain range (configurable, see below). Second, each animation starts at a randomized offset. That means that each buoy has a different rythm and start point.
 For each of these parameters, I created animation parameters (floats) and attached them to the animation state:
@@ -71,11 +73,16 @@ So far, when I changed from the menu to the game, what happened wasn't... pretty
 I took inspiration from theatre. Whenever they change a scene, the curtain would drop, some elves hop onto the stage, swap the scenery, scurry under the stage again and the curtain was lifted. I wanted to have a similar effect.
 
 At the bottom, I have my waves. I thought I could use them as an inverted curtain, going up when I change my scene and comming down again when everything is loaded. Currently looks like this:
-{% video {{site.url}}/assets/vid/posts/soldering_on/scene_change.mp4 480 800 %}
+
+<video width="480" height="800" controls>
+     <source src="{{site.url}}/assets/vid/posts/soldering_on/scene_change.mp4" type="video/mp4">
+</video>
 
 ## VIDEOS!
 After trying many tools (still like ScreenToGif), I decided on Snagit. I know it from work and it's just the best screen recording tool I've found so far. Also, it produced the smallest possible videos I could so far.
 Although I'm thinking about uploading my videos and images to other websites like [youtube](https://www.youtube.com) and [imgur](https://www.imgur.com), since these take up the majority of space of my website. I'll have to think about it some more.
+
+*EDIT:* Apparently github doesn't like custom plugins. So I changed the [ruby video tag I had stolen from the internet](https://raw.githubusercontent.com/imathis/octopress/master/plugins/video_tag.rb) with native html5 video tags.
 
 ## STAY TUNED!
 I'm so close to finish this thing. I know it. Hopefully I can release a public beta next week.

@@ -1,6 +1,6 @@
 ---
 layout: quicktip
-permalink: /quicktips/UnityEventsGizmos
+permalink: /quicktips/seamlesstiling
 title: Tiling not seamless
 description: Show your UnityEvent dependencies in the editor.
 ---

@@ -1,6 +1,6 @@
 ---
 layout: quicktip
-permalink: /quicktips/UnityEventsGizmos
+permalink: /quicktips/unityeventsgizmos
 title: Visualize UnityEvent
 description: Show your UnityEvent dependencies in the editor.
 ---

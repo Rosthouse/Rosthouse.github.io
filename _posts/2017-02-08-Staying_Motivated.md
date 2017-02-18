@@ -25,7 +25,9 @@ But at the back of my head, another idea is already forming. I have to keep it a
 That all said, I did manage to make some progress. The last remnants of the old medival theme are now purged from the main game (some are still left in the menu). 
 Also, I manage to fix the spawning issue. The more you score, the more lemmings are on screen.
 
-{% video {{site.url}}/assets/vid/posts/focus/state_20170208.mp4 480 800 {{site.url}}/assets/img/posts/focus/current_progress_poster.png %}
+<video width="480" height="800" controls>
+     <source src="{{site.url}}/assets/vid/posts/focus/state_20170208.mp4" type="video/mp4">
+</video>
 
 ## STAY TUNED!
 I will continue working on this game. Personally, I think I'm very close to finishing it. As said, I got other ideas. But before I start chassing a dragon, I want to at least finish this game. I know I can do it.
