@@ -20,7 +20,17 @@ On this page you can find usefull stuff I found during my research. This can be 
     - [Paint.net](http://www.getpaint.net/index.html): Free windows image editor.
     - [Audacity](http://www.audacityteam.org/): Open source audio editor.
     - [ScreenToGif](http://www.screentogif.com/): Open source GIF recorder.
-
+    - [Trello](https://trello.com): Task management website.
 + Tutorials
     - [Alan Zucconi](http://www.alanzucconi.com/tutorials/): Has a lot of interesting Unity tutorials.
     - [Ray Wenderlich](https://www.raywenderlich.com/category/unity): Another good lists of tutorials.
++ Books
+    - [The art of game design: A book of lenses](https://www.amazon.com/The-Art-Game-Design-Edition/dp/1466598646/ref=dp_ob_title_bk): THE book about game design.
+    - [Level UP!](https://www.google.ch/search?q=level+UP&ie=utf-8&oe=utf-8&client=firefox-b-ab&gfe_rd=cr&ei=i3-oWNOsGYug8wfdnJnADA#safe=off&q=level+UP+game+design): The OTHER book about game design.
+    - [Swipe this!](http://eu.wiley.com/WileyCDA/WileyTitle/productCd-1119966965.html): THE book about touchscreen game design.
+    - [Game Engine Architecture](http://gameenginebook.com/): Specific book about game engine implementation.
+    - [3D Math Primer for Graphics and Game Development](http://gamemath.com/): Anything you need to know (or at least heard off) about maths for game development.
+    - [Wonderbook](http://wonderbooknow.com/): A book about creating books (and worlds, and characters, and stories and....)
+    - [Masters of Doom](https://www.amazon.com/Masters-Doom-Created-Transformed-Culture/dp/0812972155): The story behind the original doom.
+    - [The Ultimate History of Video Games](https://www.amazon.com/Ultimate-History-Video-Games-Pokemon/dp/0761536434/ref=pd_sbs_14_t_1?_encoding=UTF8&psc=1&refRID=PES6CP3T0T6TDATAR047): Where did our games come from?
+    - [DND 5E: Dungeon Master Guide](http://dnd.wizards.com/products/tabletop-games/rpg-products/dungeon-masters-guide): Info book for dungeon masters (and game devs).
