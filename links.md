@@ -31,6 +31,9 @@ On this page you can find usefull stuff I found during my research. This can be 
     - [Ray Wenderlich](https://www.raywenderlich.com/category/unity): Another good lists of tutorials.
     - [Unity Youtube Channel](https://www.youtube.com/user/Unity3D): They have so many tutorials, guides and walkthroughts, it's incredible.
     - [Irfan Prasiyanto (Desainew)](https://www.youtube.com/user/desainew): A lot of very useful how-tos for Inkscape. Also a good source for inspiration
+
++ Graphics
+    - [Makin' Stuff Look Good](https://www.youtube.com/channel/UCEklP9iLcpExB8vp_fWQseg): This teaches or shows off techniques for getting the most out of Unity games, such as shaders, image effects and other neat tricks.
     
 + Books
     - [The art of game design: A book of lenses](https://www.amazon.com/The-Art-Game-Design-Edition/dp/1466598646/ref=dp_ob_title_bk): THE book about game design.
