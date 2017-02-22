@@ -55,3 +55,4 @@ On this page you can find usefull stuff I found during my research. This can be 
     - [Masters of Doom](https://www.amazon.com/Masters-Doom-Created-Transformed-Culture/dp/0812972155): The story behind the original doom.
     - [The Ultimate History of Video Games](https://www.amazon.com/Ultimate-History-Video-Games-Pokemon/dp/0761536434/ref=pd_sbs_14_t_1?_encoding=UTF8&psc=1&refRID=PES6CP3T0T6TDATAR047): Where did our games come from?
     - [DND 5E: Dungeon Master Guide](http://dnd.wizards.com/products/tabletop-games/rpg-products/dungeon-masters-guide): Info book for dungeon masters (and game devs).
+    - [The Simpsons Handbook](https://www.amazon.com/Simpsons-Handbook-Secret-Tips-Pros/dp/0061231290): Showing off how the simpsons creators draw the characters of the show.
