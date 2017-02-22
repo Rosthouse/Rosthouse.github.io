@@ -79,7 +79,7 @@ At the bottom, I have my waves. I thought I could use them as an inverted curtai
 </video>
 
 ## VIDEOS!
-After trying many tools (still like ScreenToGif), I decided on Snagit. I know it from work and it's just the best screen recording tool I've found so far. Also, it produced the smallest possible videos I could so far.
+After trying many tools (still like ScreenToGif), I decided on [Snagit](https://www.techsmith.com/screen-capture.html). I know it from work and it's just the best screen recording tool I've found so far. Also, it produced the smallest possible videos I could so far.
 Although I'm thinking about uploading my videos and images to other websites like [youtube](https://www.youtube.com) and [imgur](https://www.imgur.com), since these take up the majority of space of my website. I'll have to think about it some more.
 
 *EDIT:* Apparently github doesn't like custom plugins. So I changed the [ruby video tag I had stolen from the internet](https://raw.githubusercontent.com/imathis/octopress/master/plugins/video_tag.rb) with native html5 video tags.
