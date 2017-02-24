@@ -33,12 +33,21 @@ On this page you can find usefull stuff I found during my research. This can be 
     - [Trello](https://trello.com): Task management website.
     - [Pomello](https://pomelloapp.com/): Pomodoro timer linked to your trello account.
 
+### Frameworks
+- Game Frameworks
+    - [Libgds](https://libgdx.badlogicgames.com/): Open source Java framework to create game engines (and by extension, games).
+- Audio
+    - [Steam Audio](https://valvesoftware.github.io/steam-audio/index.html): New audio framework by Valve, renders (?) 3D sound.
+- Graphics
+    - [Ogre3D](http://www.ogre3d.org/): Performant open-source C++ graphics engine 
+
 ### Tutorials
 - [Alan Zucconi](http://www.alanzucconi.com/tutorials/): Has a lot of interesting Unity tutorials.
 - [Ray Wenderlich](https://www.raywenderlich.com/category/unity): Another good lists of tutorials.
 - [Unity Youtube Channel](https://www.youtube.com/user/Unity3D): They have so many tutorials, guides and walkthroughts, it's incredible.
 - [Irfan Prasiyanto (Desainew)](https://www.youtube.com/user/desainew): A lot of very useful how-tos for Inkscape. Also a good source for inspiration
 - [Makin' Stuff Look Good](https://www.youtube.com/channel/UCEklP9iLcpExB8vp_fWQseg): This teaches or shows off techniques for getting the most out of Unity games, such as shaders, image effects and other neat tricks.
+- [Brackeys](http://brackeys.com/): Many tutorials. Such content. Wow.
 
 ### Books
 - Design
