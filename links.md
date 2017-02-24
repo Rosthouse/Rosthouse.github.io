@@ -33,6 +33,14 @@ On this page you can find usefull stuff I found during my research. This can be 
     - [Trello](https://trello.com): Task management website.
     - [Pomello](https://pomelloapp.com/): Pomodoro timer linked to your trello account.
 
+### Frameworks
+- Game Frameworks
+    - [Libgds](https://libgdx.badlogicgames.com/): Open source Java framework to create game engines (and by extension, games).
+- Audio
+    - [Steam Audio](https://valvesoftware.github.io/steam-audio/index.html): New audio framework by Valve, renders (?) 3D sound.
+- Graphics
+    - [Ogre3D](http://www.ogre3d.org/): Performant open-source C++ graphics engine 
+
 ### Tutorials
 - [Alan Zucconi](http://www.alanzucconi.com/tutorials/): Has a lot of interesting Unity tutorials.
 - [Ray Wenderlich](https://www.raywenderlich.com/category/unity): Another good lists of tutorials.
