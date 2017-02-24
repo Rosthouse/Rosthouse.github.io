@@ -47,6 +47,7 @@ On this page you can find usefull stuff I found during my research. This can be 
 - [Unity Youtube Channel](https://www.youtube.com/user/Unity3D): They have so many tutorials, guides and walkthroughts, it's incredible.
 - [Irfan Prasiyanto (Desainew)](https://www.youtube.com/user/desainew): A lot of very useful how-tos for Inkscape. Also a good source for inspiration
 - [Makin' Stuff Look Good](https://www.youtube.com/channel/UCEklP9iLcpExB8vp_fWQseg): This teaches or shows off techniques for getting the most out of Unity games, such as shaders, image effects and other neat tricks.
+- [Brackeys](http://brackeys.com/): Many tutorials. Such content. Wow.
 
 ### Books
 - Design
