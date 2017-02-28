@@ -128,13 +128,13 @@ $nav-border-style: 2px solid black;
     @include clear_float();
 }
 
-.project-summary{
+.project-summary {
     .project-image{
-        float: left;
-        height: 128px;
+        height: 75px;
+        display: inline-block;
     }
     .project-info{
-        float:left;
+        display: inline-block;
     }
     @include space_element(100px);
     @include clear_float();
@@ -147,7 +147,6 @@ $nav-border-style: 2px solid black;
 // Minima also includes a mixin for defining media queries.
 // Use media queries like this:
 @include media-query($on-palm) {
-
     .site-nav{
         .trigger{
             display: none;
