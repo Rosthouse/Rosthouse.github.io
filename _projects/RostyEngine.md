@@ -3,7 +3,7 @@ layout: project
 title: RostyEngine
 permalink: /projects/rostyengine
 description: Writing my own game engine using LibGdx!
-image: /assets/img/rosthouse.png
+image: /assets/img/projects/rostyengine/header_image.png
 ---
 After my bachelor-thesis I couldn't let go of the overall game idea. I also got a new job and was switching from mostly C# development to java development. So it was the perfect time to start a new project, by porting an old game to a new language.
 
