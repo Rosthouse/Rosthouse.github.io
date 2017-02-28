@@ -61,11 +61,12 @@ Sometimes you have to be able to load resources (be those prefabs, scenes, textu
 ### Scripts
 Each directory in here contains (C#) code. By their naming it should be obvious what goes where, but just to be sure:
 - Behaviours
-This contains MonoBehaviours, StateMachineBehaviours and all other code files directly inheriting from Unity classes.
+<br>This contains MonoBehaviours, StateMachineBehaviours and all other code files directly inheriting from Unity classes.
 - Editor
-Classes in here enhance the editor, giving you the ability to create special editors and such.
-- ScriptableObjects
-This name is a bit 
+<br>Classes in here enhance the editor, giving you the ability to create special editors and such.
+- CustomObjects
+<br>This folder contains all classes that do not directly inherit from a Unity class.
+
 ## Advantages
 Each Unity developer you ask will probably tell you a different way they organize their folders inside the Assets folder. 
 
