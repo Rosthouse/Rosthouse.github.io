@@ -32,7 +32,8 @@ Lo and behold, this is the structure I work with.
         - Scripts
     - Scripts
         - Editor
-        - Behaviours  
+        - Behaviours
+            - NetworkBehaviours
     
 ### Audio
 This folder contains all audio clips. I made a distinction between Ambient, Effects and Soundtrack.
@@ -54,7 +55,7 @@ Unity allows you to to import many packages from the asset store or from third-p
 Everytime I import an asset package, I move them to this folder. In there, I wont do anything with them. Meaning, I won't force the structure I use outside of the packages folder inside it. So no moving models to a packages/graphics/models folder.
 
 ### Resources
-Sometimes you have to be able to load resources (be those prefabs, scenes, )
+Sometimes you have to be able to load resources (be those prefabs, scenes, textures) at runtime. Unity supports this for assets that reside in a folder called 'Resources'. To prevent cluttering this folder up, I enforce the same structure inside the Resource folder as I do in the Assets folder.
 
 ### Scripts
-- 
+Pretty self explanatory. I make a distinction between Editor scripts and 
