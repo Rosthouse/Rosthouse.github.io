@@ -5,7 +5,7 @@ permalink: /projects/shootmup
 description: Writing my own game engine using LibGdx!
 image: /assets/img/projects/shootmup/shootmup_header.png
 ---
-Before diving into [Unity](https://unity3d.com/), I started out with [GameMaker](http://www.yoyogames.com/gamemaker). It was a fun software, but as I said in [another]() post, I'm not currently using it.
+Before diving into [Unity](https://unity3d.com/), I started out with [GameMaker](http://www.yoyogames.com/gamemaker). It was a fun software, but as I said in [another]({{ site.baseurl }}{% post_url 2017-02-22-Finishing_Touches %}) post, I'm not currently using it.
 But here is an (at least playable) prototype created with it.
 
 ## SHOOTMUP
