@@ -67,15 +67,19 @@ Each directory in here contains (C#) code. By their naming it should be obvious 
 - CustomObjects
 <br>This folder contains all classes that do not directly inherit from a Unity class.
 
-## Advantages
+## THE GOOD STUFF!
 Each Unity developer you ask will probably tell you a different way they organize their folders inside the Assets folder. 
 
 My approach is inspired by [Maven](https://maven.apache.org/) and its [standard directory layout](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html). The key advantage it gives is clarity. It tells you exactly where each file type belongs in your folder structure. Inside them, you are free to choose your own structure (be that scene based, prefab based or anything else). But as long as you keep that general structure you're fine. There's no arguing where you should place the files.
 
 Second key advantage is communication. The structure is laid out so that even for new people it should be obvious how the structure is laid out. Less time is spent explaining new people where they have to look for meshes, textures and scripts.
 
-## Disadvantages
+## THE BAD STUFF!
 Certainly there are also disadvantages. Mainly that it separates assets that clearly belong to each other. If you have a 3D model that has a single texture and (or) just one material, you still have to put each of these assets in separate folders, althoug it would probably be easier to keep them in one place for simplicity.
 
 Another disadvantage is that you have to be more carefull with creating assets (such as scripts and materials). Management of your files is, while not more difficult, more laborious. You have to check that each script is generated in the right folder or move it after creating it.
 Especially in crunch mode this can become tedious, since you just want to get the bloody thing to run instead of fidling around with files and folders.
+
+## BRINGING IT ALL TOGETHER!
+Currently I'm using this structure and am happy with it. It's easy enough to work with and should keep my assets folder clean enough.
+Let me know what your structure looks like!
