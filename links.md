@@ -60,6 +60,8 @@ On this page you can find usefull stuff I found during my research. This can be 
 - Development
     - [Game AI Pro](http://www.gameaipro.com/): Book about programming Game AI, free articles on their website.
     - [3D Math Primer for Graphics and Game Development](http://gamemath.com/): Anything you need to know (or at least heard off) about maths for game development.
+    - [Graphics Programming Black Book](http://www.jagregory.com/abrash-black-book/): Book about graphics and assembler programming by the legendary Michael Abrash.
+    - [Game Engine Black Book](http://fabiensanglard.net/Game_Engine_Black_Book/index.php): Book(s) about the Wolfestein 3D engine.
 - Inspiration
     - [Wonderbook](http://wonderbooknow.com/): A book about creating books (and worlds, and characters, and stories and....)
     - [Masters of Doom](https://www.amazon.com/Masters-Doom-Created-Transformed-Culture/dp/0812972155): The story behind the original doom.
