@@ -1,0 +1,14 @@
+{
+    "tasks": [
+        {
+            "label": "Serve",
+            "command": "bundle",
+            "args": [
+                "exec",
+                "jekyll",
+                "serve"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
