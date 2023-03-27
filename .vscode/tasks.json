@@ -3,10 +3,12 @@
         {
             "label": "Serve",
             "command": "bundle",
+            "type": "shell",
             "args": [
                 "exec",
                 "jekyll",
-                "serve"
+                "serve",
+                "--livereload"
             ],
             "problemMatcher": []
         }
