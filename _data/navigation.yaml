@@ -1,0 +1,6 @@
+main:
+  - title: Projects
+    url: /projects/
+    children:
+      - title: Bouncer
+        url: /projects/Bouncer
